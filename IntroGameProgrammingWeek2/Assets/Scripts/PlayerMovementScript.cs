@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerMovementScript : MonoBehaviour
 {
-    private float moveSpeed; //controls player speed
+    //This script is no longer used for the player character, I'm keeping this more really as a reference material
+    public int moveSpeed = 5; //controls player speed
     // Start is called before the first frame update
     void Start()
     {
